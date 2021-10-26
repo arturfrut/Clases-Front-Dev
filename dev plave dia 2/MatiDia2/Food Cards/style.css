@@ -189,6 +189,10 @@ p>span{
 ********************************************CARD 3********************************************
 ****************************************************************************************************/
 
+/*GOOGLE FONTS */
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Dancing Script', cursive;*/
+
 .doubleCard{
     border: solid white 15px;
     border-radius: 0;
@@ -248,12 +252,14 @@ p>span{
     position: absolute;
     width: 320px;
     transform: translateY(201px);
-    /*display: none;*/
     z-index: 50;
-    visibility: hidden;
+   /* visibility: hidden;*/
+
 }
 
 .back:hover{
     color: red;
-    visibility:visible
+    visibility:visible;
+    z-index: -100;
+
 }
