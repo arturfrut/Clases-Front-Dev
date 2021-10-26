@@ -1,0 +1,125 @@
+/* BACKGROUND */
+
+#img-bg{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -100;
+}
+
+/* NAV */
+
+nav{
+    background: #f3f3f3;
+
+}
+
+#logoimg{
+    height: 60px;
+}
+
+.relleno{
+    height: 70px;
+}
+
+
+/* ARI SECTIONS*/
+
+.conteiner{
+display: grid;
+  gap: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+}
+
+#ourProyectsTitle{
+    margin-bottom: 20px;
+}
+
+.s1{
+    margin-top: 20px;
+    background: rgba( 26, 27, 245, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.s2{
+    background: rgba( 245, 9, 9, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );  
+}
+.s3{
+    background: rgba( 226, 8, 172, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); 
+}
+.s4{
+    background: rgba( 138, 138, 138, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+/****************ABOUT US*/
+
+.containerUs{
+    display: flex;
+}
+.card{
+    margin: 30px;
+    background-color: rgba(226, 226, 226, 0.5) ;
+    border-radius: 15px;
+}
+
+
+
+/***************PROYECTS*/
+
+.imgProyect{
+    height: 80px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.proyectContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    background: rgba( 138, 138, 138, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.proyectContentContainer{
+    display: flex;
+    align-items: center;
+}
+
+/*********FOOTER**************/
+
+/**CONTACT*/
+
+.formContact{
+    display: inline-block;
+    width: 80vw;
+}
+
+
+.footer{
+
+    height: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+ }
