@@ -185,4 +185,75 @@ p>span{
 }
 
 
+/**************************************************************************************************
+********************************************CARD 3********************************************
+****************************************************************************************************/
 
+.doubleCard{
+    border: solid white 15px;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imgDouble{
+    border-radius: 0;
+    margin: 0;
+}
+
+.circle{
+    z-index: 100;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #ac8544;
+    font-size: 40px;
+    transform: translate(150px, 90px)
+    
+}
+.fas{
+    color: #ac8544;
+}
+
+.doubleTittle{
+    text-align: center;
+    margin: 0px;
+    font-family: 'Playfair Display', serif;
+    color: #ac8544;
+}
+
+.doubleSubTittle{
+    text-align: center;
+    margin: 0px;
+    font-family: 'Dancing Script', cursive;
+    color: #ac8544;
+    margin-top: 40px;
+}
+
+.infoDouble{
+    display: flex;
+    flex-direction: column;
+    background-color: #7a2f29;
+    padding: 40px;
+}
+
+.back{
+    position: absolute;
+    width: 320px;
+    transform: translateY(201px);
+    /*display: none;*/
+    z-index: 50;
+    visibility: hidden;
+}
+
+.back:hover{
+    color: red;
+    visibility:visible
+}
