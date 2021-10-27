@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img-bg{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: -100;
+}
+
+nav{
+    background: #f3f3f3;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    z-index: 10;
+}
+
+#logoimg{
+    height: 66px;
+}
+
+ul{
+    display: flex;
+
+}
+li{
+     list-style: none;
+     padding: 0.5rem;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.relleno{
+    height: 70px;
+}
+
+
+/* ARI SECTIONS*/
+
+.conteiner{
+display: grid;
+  gap: 10px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 30px 0px 30px;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 20px;
+}
+
+#ourProyectsTitle{
+    margin-bottom: 20px;
+}
+
+.s1{
+    margin-top: 20px;
+    background: rgba( 26, 27, 245, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+.s2{
+    background: rgba( 245, 9, 9, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );  
+}
+.s3{
+    background: rgba( 226, 8, 172, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ); 
+}
+.s4{
+    background: rgba( 138, 138, 138, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+
+/****************ABOUT US*/
+
+ /*CONTENEDOR CARDS*/
+
+.aboutCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cardsContainer{
+    margin: 40px;
+    width: 400px;
+    background-color:white;
+    flex-direction: column;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+.cardsContainer:hover{
+    transform: translateY(-7px);
+    transition: 0.2s;
+    box-shadow: 0 3px 9px 0 rgba(61,61,61,0.91) ;
+}
+
+.imgCont > h3{
+    position: absolute;
+    color: white;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    box-shadow: -6px 5px 18px 3px rgba(0,0,0,0.33) ;
+}
+
+.img{
+    width: 400px;
+    position: relative;
+    border-radius:   10px 10px 0px  0px ;
+}
+
+
+
+/*INFO COMPLETA DEBAJO DE IMAGEN*/
+.info{
+    padding: 0px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+hr{
+    color: #808080;
+}
+
+
+
+
+/*DESCRIPCION DE LA PERSONA*/
+
+
+.description{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+/***************PROYECTS*/
+
+/*INFO UNDER IMG*/
+.info{
+    padding: 0px 40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    color: #808080;
+}
+
+.iconsCont{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 0px 10px 0px;
+}
+/* POS AND COLOR ICON GROUP / NUMBERS */
+.icons > p{
+    font-weight: 600;
+    color: #3a3a3a;
+}
+
+i{
+    color: #808080;
+}
+
+p{
+    margin: 5px;
+}
+
+p>span{
+    font-weight: bolder;
+    color: red;
+}
+
+/*DESCRIPTION*/
+
+
+.description{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*BTN*/
+
+#falaBtn{
+    background-color: red;
+    color:white;
+    border: solid 0px;
+    padding:10px 100px 10px 100px;
+    font-family:Helvetica, Arial,  sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#falaBtn:hover{
+    background-color: #808080;
+    color:black;
+}
+
+
+/*********FOOTER**************/
+
+/**CONTACT*/
+
+.formContact{
+    display: inline-block;
+    width: 80vw;
+}
+
+
+.mb-3{
+    margin-bottom: 20px;
+}
+
+input,textarea{
+    border-radius: 7px;
+    border:solid rgb(175, 175, 175) 1px;
+    height: 1.7rem;
+    display: block;
+    width: 100%;
+    margin: 1rem 0;
+}
+
+textarea{
+    height: 5rem;
+}
+
+button{
+    border: solid rgb(100, 165, 202) 1px;
+    background-color: rgb(100, 165, 202);
+    border-radius: 7px;
+    padding: 10px 20px;
+
+}
+
+.footer{
+
+    height: 150px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+ }
