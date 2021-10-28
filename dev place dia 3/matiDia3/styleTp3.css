@@ -11,11 +11,13 @@ body{
 }
 
 nav{
+    box-sizing: border-box;
     background: #f3f3f3;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     display: flex;
     z-index: 10;
+    border: solid black 1px;
 }
 
 #logoimg{
