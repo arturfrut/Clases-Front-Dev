@@ -1,0 +1,63 @@
+body{
+    padding: 40px;
+}
+
+.card{
+    height: 320px;
+    width: 500px;
+    background-color: red;
+    box-shadow: rgb(172, 172, 172) 10px 5px 20px 1px;
+    position: relative;
+}
+
+.leftSide{
+    background-color: blue;
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.rigthSide{
+    display: inline-block;
+    background-color: lightcoral;
+    padding: 2rem 1rem;
+}
+
+
+h2{
+    font-family: 'Bentham', serif;
+    margin-bottom: 2rem;
+    color: rgb(43, 43, 43);
+}
+
+p{
+    font-family: 'Trocchi', serif;
+    font-weight: 100;
+    color: grey;
+}
+
+button{
+    font-family: 'Raleway', sans-serif;
+    background: #9cebd5 ;
+    border: solid 0;
+    color: white;
+    border-radius: 40px;
+    padding: 10px 40px;
+}
+
+.priceAndBtn>*{
+    display: inline-block;
+    margin: 2%;
+}
+
+
+.price{
+    font-weight: 600;
+    font-size: 1.6rem;
+}

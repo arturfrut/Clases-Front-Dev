@@ -1,0 +1,52 @@
+/*Background*/
+
+body{
+    background-color: var(--bgColor);
+    padding: 50px 0;
+    background-color: lightgreen;
+}
+
+/*Card Container*/
+
+
+.cardCon{
+    margin: auto;
+    background-color: white;
+    width: 40%;
+    height: 300px;
+}
+
+
+
+.caption{
+    padding:1rem
+}
+
+h2{
+    color: rgb(70, 70, 70);
+}
+
+.stars{
+    color: rgb(192, 192, 3);
+}
+
+.paragraph{
+    text-align: center;
+    color: grey;
+}
+
+
+
+.imgFloat{
+    background-image: url(https://sc01.alicdn.com/kf/HTB1Cic9HFXXXXbZXpXXq6xXFXXX3/200006212/HTB1Cic9HFXXXXbZXpXXq6xXFXXX3.jpg);
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}
+
+
+
+

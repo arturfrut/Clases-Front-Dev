@@ -1,0 +1,59 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 1rem;
+    font-family: Helvetica, Arial,  sans-serif;
+    background-color: tomato;
+    background-image: url(https://i.pinimg.com/originals/07/a3/e6/07a3e62dd6dc0188b4efbd4fa6be7a6c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}   
+
+.card{
+    background: white;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin: 1%;
+
+}
+
+.cardTop{
+    background: white;
+    margin-bottom: 2%;
+    padding: 20px 20px 10px 20px;
+}
+
+.img{
+    border-radius: 50%;
+    width: 75%;
+}
+
+h2{
+    color: #272d34;
+    font-weight: 400;
+    margin: 0.5rem;
+}
+
+h3{
+    font-weight: 200;
+    color:#8e8f90 ;
+    font-size: 0.8rem;
+    margin: 0px;
+}
+
+.cardFooter{
+    background-color: #1369ce;
+}
+
+.cardFooter>*{
+ 
+    color: white;
+    display: inline-block;
+    margin: 4%;
+}
+
