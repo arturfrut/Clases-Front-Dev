@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://picsum.photos/2880/1920?image=737);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.formBox{
+    width: 300px;
+    margin: 2rem auto;
+    padding: 3rem 1rem;
+    background-color: rgba(86, 83, 112, 0.8);
+}
+
+form{
+    text-align: center;
+}
+
+form>*{
+    margin: 0.7rem;
+}
+
+input, button{
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: solid 0;
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+}
+
+input::placeholder{
+    color: white;
+}
+
+button{
+    display: inline;
+    background-color: #0172ff;
+}

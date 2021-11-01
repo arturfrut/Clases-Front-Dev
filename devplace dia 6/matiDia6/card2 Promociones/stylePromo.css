@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial,  sans-serif;
+    color: white;
+}
+body{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+.card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    margin: 1rem 1rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 30px;
+}
+
+.card1{
+    background: linear-gradient(
+        120deg, #69aff5, #ef0ad2);
+}
+
+.circleImg1{
+    background: linear-gradient(
+        120deg, #69aff5, #ef0ad2);
+}
+
+.card2{
+    background: linear-gradient(
+        -45deg, #ffec61, #f321d7);
+}
+
+.circleImg2{
+    transform: rotate(-45deg);
+    background: linear-gradient(
+        0, #ffec61, #f321d7);
+}
+
+.card3{
+    background: linear-gradient(
+        120deg, #27fa77, #9456f9);
+}
+
+.circleImg3{
+    background: linear-gradient(
+        0deg, #27fa77, #9456f9);
+}
+
+.card>*{
+    margin: 0.4rem;
+}
+
+.circleImg{
+    padding: 1rem;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 30px;
+}
+
+p{
+    font-size: 2rem;
+}
+
+h4{
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+.up{
+    vertical-align:super;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    margin: 0.3rem;
+    font-size: 0.7rem;
+}
+
+
+button{
+    border-radius: 5px;
+    border:solid 0;
+    box-shadow: rgba(0, 0, 0, 0.4) 10px 10px 30px;
+    color: black;
+    width: 95%;
+    padding: 0.3rem 0;
+}
+
