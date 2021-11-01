@@ -1,0 +1,60 @@
+body{
+    background-color: tomato;
+    padding: 2rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    width: 600px;
+    box-shadow: rgb(78, 78, 78) 10px 20px 40px;
+}
+
+img{
+    width: 300px;
+}
+
+.caption{
+    padding:2rem;
+}
+
+h2{
+    font-family: 'Bentham', serif;
+    margin-bottom: 3rem;
+    color: rgb(43, 43, 43);
+}
+
+.caption>p{
+    font-family: 'Trocchi', serif;
+    font-weight: 100;
+    color: grey;
+    line-height: 1.5;
+    margin: 2rem 0;
+}
+
+.priceBuy{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.priceBuy>p{
+    font-weight: 600;
+    font-size: 1.6rem;
+    margin: 0;
+    color: rgb(63, 63, 63);
+}
+
+button{
+    font-family: 'Raleway', sans-serif;
+    background: #9cebd5 ;
+    border: solid 0;
+    color: white;
+    border-radius: 40px;
+    padding: 12px 40px;
+}

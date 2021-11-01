@@ -1,0 +1,84 @@
+body{
+    background-color: tomato;
+    padding: 2rem;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    background-color: white;
+    width: 650px;
+    box-shadow: rgb(78, 78, 78) 10px 20px 40px;
+}
+
+img{
+    width: 300px;
+}
+
+.caption{
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    font-family: 'Bentham', serif;
+    color: rgb(70, 70, 70);
+    margin: 0;
+    font-size: 2rem;
+}
+h2>span{
+    font-size: 50%;
+    vertical-align: top; 
+    background-color: rgb(255, 86, 86);
+    border-radius: 5px;
+    padding: 4px;
+    color: white;
+}
+
+
+.stars{
+    margin: 0.5rem 0;
+    color: rgb(235, 235, 0);
+}
+
+.paragraph{
+    text-align: center;
+    color: grey;
+    line-height: 1.5;
+}
+
+.priceBuy{
+    display: flex;
+    width: 60%;
+    background-color: chartreuse;
+    border-radius: 7px;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    align-self: center;
+    margin-top: 2rem;
+}
+
+
+
+.grey{
+    background-color: rgb(68, 68, 68);
+    float: left;
+    padding: 0.5rem 1rem;
+}
+
+.buy{
+    color: white;
+    margin: 0.5rem;
+    margin-left: 30px;
+}
+
+.grey>p{
+    margin: 0;
+}
+ 

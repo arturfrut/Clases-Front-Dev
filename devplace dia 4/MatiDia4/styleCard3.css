@@ -2,12 +2,16 @@ html{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*BACKGROUND*/
+
 body{
     background-image: url(./pattern-background-desktop.svg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 60px;
 }
+
+/*FULL CARD CONTAINER*/
 
 .card2{
     margin: auto;
@@ -21,26 +25,36 @@ body{
 #img{
     width: 100%;
 }
+
+/*CAPTION CONTAINER*/
+
 .infoCon{
     text-align: center;
     padding: 20px;
 }
+
+/*PARAGRAPH*/
 
 .infoPar{
     line-height: 1.5;
     color: grey;
 }
 
+/*FLOAT CONTAINERS*/
+
+/*BIG CONTAINER*/
 .changeCon{
     background-color: rgb(228, 228, 228);
     border-radius: 10px;
-    padding: 20px;
-    height: 40px;
-    padding-top: 30px;
+    height: 80px;
+
     position: relative;
     width: 90%;
+    box-sizing: border-box;
 }
 
+
+/*SMALL CONTAINERS/ELEMENTS*/
 .musicCon{
     height: 40px;
     width: 40px;
@@ -50,35 +64,35 @@ body{
     color: rgb(77, 77, 77);
     background-color:rgb(117, 117, 117);
     margin-right: 20px;
-}
-
-.fa-music{
-    margin-top: 10px;
+    line-height: 80px;
+    position: absolute;
 }
 
 .info{
+    line-height: 80px;
     text-align: left;
     float: left;
-    z-index:2 ;
 }
 
 .change{
     float: right;
     margin-right:30px ;
-    margin-top: 6px;
+    /*margin-top: 6px;*/
     text-decoration: underline;
     color: blue;
+    line-height: 80px;
 }
+
+/*FONTS ADJUSTEMENT*/
 .plan{
     margin: 0;
     font-size: 0.8rem;
 }
 .price{
-    margin: 3px 0 ;
     font-size: 0.8rem;
     color: grey;
 }
-
+/*BOTTOM BUTTONS*/
 
 .btnBlue{
     background-color: rgb(101, 151, 233);
