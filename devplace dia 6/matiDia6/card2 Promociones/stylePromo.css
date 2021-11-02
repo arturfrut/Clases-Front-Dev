@@ -52,7 +52,7 @@ body{
 
 .circleImg3{
     background: linear-gradient(
-        0deg, #27fa77, #9456f9);
+        45deg, #27fa77, #9456f9);
 }
 
 .card>*{

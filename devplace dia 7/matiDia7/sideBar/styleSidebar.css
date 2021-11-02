@@ -26,9 +26,16 @@ li{
     list-style: none;
     font-size: 1.5rem;
     padding: 0.7rem;
-    color: rgb(73, 73, 73);
 }
 
 i{
     text-align: center;
+}
+
+a:link{
+    color: rgb(73, 73, 73);
+}
+
+a:visited{
+    color: rgb(73, 73, 73);
 }
