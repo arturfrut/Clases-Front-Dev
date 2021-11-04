@@ -71,16 +71,17 @@ h2{
     display: flex;
 }
 
-.icons>div{
+
+.circle{
     width: 2rem;
     height: 2rem;
-    display: inline-block;
     font-size: 1rem;
     margin: 0;
     color: grey;
     border-radius: 50%;
     border: solid grey 1px;
     margin: auto;
+    line-height: 2;
 }
 
 p{
