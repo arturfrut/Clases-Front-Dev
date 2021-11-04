@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ecf0f3;
+    text-align: center;
+}
+
+body{
+    padding: 2rem;
+
+}
+
+.login{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    width: 1000px;
+    position: relative;
+    overflow: hidden;
+}
+
+.signIn{
+    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+    padding: 7rem 1rem ;
+    width: 400px;
+    overflow: hidden;
+}
+
+.circle1{
+    transform: translate(280px, -200px);
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+}
+
+.circle2{
+    transform: translate(-140px, 350px);
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+}
+
+.signUp{
+    width: 600px;
+    border: solid 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0;
+    position: relative;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.icons{
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+
+.icons>div{
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0;
+    color: grey;
+    border-radius: 50%;
+    border: solid grey 1px;
+    margin: auto;
+}
+
+p{
+    font-size: 0.8rem;
+    color: grey;
+    margin: 0.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+input{
+    display: block;
+    box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+    border-radius: 5px;
+    padding: 0.5rem 5rem 0.5rem 1.5rem;
+    width: 60%;
+    margin: 0.5rem;
+    text-align: left;
+    border: solid 0;
+}
+
+button{
+    background-color: #4b70e2;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    padding: 0.8rem 3.5rem;
+    border: solid 0 ;
+    margin: 3rem;
+}

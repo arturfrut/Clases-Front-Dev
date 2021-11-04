@@ -73,7 +73,7 @@ let info2 = ["lorem", "ipsum", "scammer", "simply", "sit", "amet", "laboris", "n
 console.log(info2.length)
 
 /*Ejercicio N14****************************** */
-
+console.log('*******************')
 const infoMayuscula = ["lorem", "ipsum", "scammer", "simply", "laboris", "sit", "amet", "laboris"];
 
 infoMayuscula.forEach((element,j) => {
@@ -147,8 +147,9 @@ reporte.forEach((element,j) => {
 
 let k = reporte.indexOf('a')
 if(k !== -1) {
-    reporte.splice(i,1)
+    reporte.splice(k,1)
 }
+
 
 reporte[reporte.length] = '@'
 console.log(reporte)
