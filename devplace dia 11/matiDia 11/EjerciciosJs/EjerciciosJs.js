@@ -40,8 +40,6 @@ const exten = (str) =>{
     } else {
         return('El archivo no tiene extension')
     }
-
-
 }
 
 // EJERCICIO 4 CONVERSOR CF
