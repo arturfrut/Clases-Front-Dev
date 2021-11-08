@@ -1,8 +1,13 @@
+@font-face {
+    font-family: "Netflix2";
+    src: url(./Fuente/NetflixSans_W_Rg.woff2)
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Netflix2", Helvetica, sans-serif;
     color: white;
 }
 
