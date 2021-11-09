@@ -8,7 +8,7 @@ const sumaDigitos = (digitos) =>{
      let suma = null;
      
      for (digitos of myArray) {
-          suma += (1*digitos)
+          suma += (1*digitos);
      } 
 
      return suma;
@@ -21,10 +21,9 @@ Escriba una función que tome un string con una suma y devuelva su resultado com
 Deben sumarse dos números naturales(numeros enteros). La tarea de suma es una cadena de la forma '102 + 17'.
 */
 
-
-let sumaElementos = null;
-
+     
 const sumaString = (cuenta) =>{
+     let sumaElementos = null;
      let myArrayDeSuma = cuenta.split('+')
      
      if (myArrayDeSuma != -1) {
@@ -41,12 +40,11 @@ Escribir una función que genere un numero random y pregunte por prompt "Adivina
 hasta que acierte y muestre "Adivinaste el numero"*/
 
 const adivinaPrompt = () =>{
-     let randomNumber = parseInt(Math.random() * (11 - 0));
+     let randomNumber = parseInt(Math.random()*(11 - 0));
      do {
           myNumber = parseInt(prompt('Introduce un numero del 1 al 10','Escriba aqui'));
      } while (randomNumber != myNumber);
-     alert(`Adivinaste! ${randomNumber} era el numero!`)
+     return alert(`Adivinaste! ${randomNumber} era el numero!`)
 }
 
 //adivinaPrompt()
-
