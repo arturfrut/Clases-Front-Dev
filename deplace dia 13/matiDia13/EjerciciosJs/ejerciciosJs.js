@@ -48,20 +48,7 @@ Ej-5  1 str = "origin"
   eliminar las vocales del string
   output => rgn
 */
-/*
-const byeVocals = (myWord) =>{
-    const vocals = ['a','e','i','o','u','A','E','I','O','U',]
-    wordToarray = myWord.split('')
-    console.log(wordToarray)
-    for (const character of wordToarray) {
-        for (const vocal of vocals) {
-            if (vocal == character){
-                
-            }
-        }
-    }
-}
-*/
+
 
 
 const byeVocals = (myWord) => myWord.replace(/[aeiouAEIOU]/g, '')
