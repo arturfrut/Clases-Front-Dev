@@ -66,3 +66,18 @@ hr{
 button:hover, img:hover {
     border: solid lightskyblue 2px;
 }
+
+#hr2{
+    transform: translate(580px, -350px) rotate(-60deg);
+    margin: 8rem 0;
+}
+
+#hr3{
+    transform: translate(600px, -200px) rotate(-60deg);
+    margin: 10rem 0;
+}
+
+#hr4{
+    transform: translate(600px, -200px) rotate(-60deg);
+    margin: 10rem 0;
+}
