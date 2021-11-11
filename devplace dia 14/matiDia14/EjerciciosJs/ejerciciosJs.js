@@ -75,6 +75,6 @@ const repeatArray = (myArray) =>{
       })
 }
 
-console.log(repeatArray(arr))
+//console.log(repeatArray(arr))
 
 
