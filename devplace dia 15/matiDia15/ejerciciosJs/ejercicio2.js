@@ -7,6 +7,6 @@
 
 let str = "hola mundo desde javascript";
 
-str = str.replace(/ /g,'-');
+str = str.replace(/ /g,' - ').split(' ');
 
 console.log(str)
