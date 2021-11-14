@@ -4,26 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starbucks HOME</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>STARBUCKS</title>
 </head>
+
 <body>
+
+    <!--NAV BAR------------------------------------------------->
+
+    <nav>
+        <div class="navFlex">
+            <ul class="leftNavGroup">
+                <li>
+                    <div class="logo"></div>
+                </li>
+                <li><a href="">MENU</a></li>
+                <li class="active" ><a href="">REWARDS</a></li>
+                <li><a href="">GIFT CARDS</a></li>
+            </ul>
+            <ul class="rightNavGroup">
+                <li><i class="fas fa-map-marker-alt"></i> <a href=""> Find a store</a></li>
+                <button class="btn-white">Sign In</button>
+                <button class="btn-dark">Join Now</button>
+            </ul>
+            </div>
+        </div>
+        <div class="rewards">
+            <h5>STARBUCKS' REWARDS</h5>
+        </div>
+    </nav>
+
+<!--MAIN------------------------------------------------->
+
+
     <main>
-        <div class="caption" >
-            <h2>FREE COFFEE <br>IS A TAP AWAY
-            </h2>
+        <div class="letfMainGroup" >
+            <h1>FREE COFFEE <br>IS A TAP AWAY</h1>
             <p>Join now to start learning Rewards</p>
-            <button>Join now</button>
+            <button class="btn-green">Join now</button>
             <p>Or <u>join in the app</u> for the best experience</p>
-            <div class="star-five" ></div>
-        <div>
-        
-            
+        </div>
     </main>
-    <footer>
-        <h3>Getting started is easy</h3>
-        <p>Earn Stars and get rewarded in a few easy steps</p> 
-        <div class="stepItems">
+
+<!--GETTING STARTED------------------------------------------------->
+
+    <section class="gettingStarted">
+
+        <h2>
+            Getting started is easy
+        </h2>
+        <p>Earn Stars and get rewarded in a few easy steps</p>
+        <div class="getStartFlex">
             <div class="stepItem">
                 <div class="numberCircle">1</div>
                 <h4>Create an account</h4>
@@ -40,8 +72,122 @@
                 <p>As you earn Stars, you can redeem them for Rewards -like free food, drinks, and more. Start redeeming with as little as 25 Stars!</p>
             </div>
         </div>
-    </footer>
+    </section>
 
+<!--EARN STARS------------------------------------------------->
+
+    <section class="earnStars">
+        <h2>Cash or card, you earn Stars</h2>
+        <p>No matter how you pay, you can earn Stars with your morning coffee. Those Stars add up to (really delicious) Rewards.</p> 
+
+        <div class="earnStarsGrid">
+    <!--First Row Grid-->
+
+            <div class="firstColGrid">
+                <h2>1<i class="fas fa-star"></i> per dollar</h2>
+                <p>Pay as you go</p>
+            </div>
+            <div class="secondColGrid">
+                <div>
+                    <img src="./img/row1col2.png" alt="">
+                </div>
+                <div>
+                    <h4>Scan and pay separately</h4>
+                    <p>Use cash or credit/debit card at the register</p>
+                </div>
+            </div>
+            <div class="thirdColGrid">
+                <div>
+                    <img src="./img/row1col3.png" alt="cellphoneAndCard">
+                </div>
+                <div>
+                    <h4>Save Payment in the app</h4>
+                    <p>Check-out faster by saving a credit/debit card or PayPal to your account. You'll be able to order ahead or scan and pay at the register in one step</p>
+                </div>
+            </div>
+            <div></div>
+
+    <!--Second Row Grid-->
+
+            <div class="firstColGrid">
+                <h2>2<i class="fas fa-star"></i> per dollar</h2>
+                <p>Add founds in the app</p>
+            </div>
+            <div class="secondColGrid">
+                <div>
+                    <img src="./img/row2col2.png" alt="">
+                </div>
+                <div>
+                    <h4>Preload</h4>
+                    <p>to save time and earn Stars twice as fast add money to your digital Starbucks Card using any payment option. Scan and pay in one step or order ahead in the app</p>
+                </div>
+            </div>
+            <div class="thirdColGrid">
+                <div>
+                    <img src="./img/row2col3.png" alt="">
+                </div>
+                <div>
+                    <h4>Save Payment in the app</h4>
+                    <p>Check-out faster by saving a credit/debit card or PayPal to your account. You'll be able to order ahead or scan and pay at the register in one step</p>
+                </div>
+            </div>
+            <div></div>
+
+    <!--Third Row Grid-->
+            <div class="firstColGrid">
+                <h2>3<i class="fas fa-star"></i> per dollar</h2>
+                <p>With Starbucks Rewards Visa Card</p>
+            </div>
+            <div class="secondColGrid">
+                <div>
+                    <img src="./img/row3col2.png" alt="">
+                </div>
+                <div>
+                    <h4>Earn Stars Even faster</h4>
+                    <p>Earn Stars even taster</p>
+                </div>
+            </div>
+            <div></div>
+            
+        </div>
+
+    </section>
+
+<!--GET YOUR FAVS------------------------------------------------->
+
+    <section class="getYourFav">
+
+        <h2>Get your favourites for free</h2>
+        <ul>
+            <li>25<i class="fas fa-star"></i></li>
+            <li>50<i class="fas fa-star"></i></li>
+            <li>150<i class="fas fa-star"></i></li>
+            <li>200<i class="fas fa-star"></i></li>
+            <li class="favActive" >400<i class="fas fa-star"></i></li>
+        </ul>
+        <div class="sliderGetYourFav">
+            <img class="imgSlider" src= "./img/slider400.png" alt="">
+            <div class="rightGroupSlider">
+                <h3>Select merchandise or at-<br> home coffee</h3>
+                <p>Take home a signature cup, a bag of coffee or your choice of select coffee accessories.</p>
+            </div>
+        </div>
+
+    </section>
+
+<!--ENDLESS EXTRAS------------------------------------------------->
+
+    <section class="endlessExtras" > 
+        <h2>Endless Extras</h2>
+        <p>Joining Starbucks Rewards means unlocking access to <br> exclusive benefits. Say hello to easy ordering, tasty Rewards and-yes, free coffee.</p>
+        <div class="endlessFlex" >
+            <img src="./img/endless1.jpg" alt="">
+            <img src="./img/endless2.jpg" alt=""> 
+            <img src="./img/endless3.jpg" alt="">
+        </div>
+
+    </section>
 
 </body>
+
 </html>

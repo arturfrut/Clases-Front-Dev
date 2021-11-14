@@ -1,0 +1,16 @@
+@import url('./colorsFontsSizes.css');
+
+.endlessExtras{
+    text-align: center;
+    padding: 3rem;
+}
+
+.endlessFlex{
+    margin: 3rem 0;
+    display: flex;
+    justify-content:space-around ;
+}
+
+.endlessFlex>img{
+    height: 150px;
+}

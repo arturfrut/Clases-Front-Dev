@@ -1,0 +1,25 @@
+@import url(../base/colorsFontsSizes.css);
+
+
+
+main{
+    overflow: hidden;
+    background-color: var(--mainBg);
+    height: 100vh;
+    width: 98vw;
+    padding: 20rem 4rem;
+    background-image:url(../../../img/mainBg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-green{
+    margin: 1rem 0;
+    border: solid 1px;
+    background-color: var(--secondaryLigth);
+    color: var(--barBgAndFont);
+    border-radius: 30px;
+    font-weight: 300;
+    padding: 0.2rem 1rem;
+}

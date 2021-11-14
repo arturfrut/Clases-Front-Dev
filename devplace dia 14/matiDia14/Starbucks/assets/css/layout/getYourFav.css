@@ -1,0 +1,46 @@
+@import url('./colorsFontsSizes.css');
+
+.getYourFav{
+    background-color: var(--barBgAndFont);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sliderGetYourFav{
+    width: 100%;
+    background-color: var(--mainBg);
+    display: flex;
+    text-align: left;
+    align-items: center;
+    padding: 2rem 9rem;
+}
+
+.imgSlider{
+    height: 350px;
+}
+
+.getYourFav>h2{
+    margin: 2rem;
+
+}
+
+.getYourFav>ul>li{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.favActive{
+    border-bottom: solid 4px var(--secondaryLigth);
+    transform: translateY(2px);
+}
+
+.getYourFav>ul>li>i{
+    color: rgb(238, 208, 37);
+    font-size: 50%;
+}
+
+.rightGroupSlider>h3{
+    margin: 1rem 0;
+}

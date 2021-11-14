@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+:root{
+    --primary: #1e3932;
+    --lightPrimary: #008248;
+    --backgroundFoot: #f1f8f6;
+    --backgroundMain: #d4e9e2;
+    --backgroundHeader: #f3f1e7;
+    --fontColor: #000000;
+}
+
+
+body{
+    background-color: var(--backgroundFoot);
+}
+
+nav {
+    background-color: white;
+    font-size: 0.8rem;
+    height: 80px;
+    width: 100vw;
+    line-height: 40px;
+    position: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px 60px;
+    list-style: none;
+}
+
+.rewards{
+    width: 100vw;
+    justify-self: end;
+    position: relative;
+    z-index: 10;
+    background-color: var(--primary);
+}
+
+.logo{
+    height: 45px;
+    width: 45px;
+    background-image: url(img/logo.png);
+    background-size: cover;
+}
+
+ul{
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+    padding:0px 12px;
+}
+
+li a {
+    text-decoration:none;
+    color: black;
+}
+
+.active{
+    padding-bottom: 30px;
+    border-bottom: solid 5px #008248;
+}
+
+
+h5{
+    padding-left: 70px;
+    color: white;
+}
+
+.btn{
+    border: solid black 1px;
+    border-radius: 50px;
+    padding: 4px 15px;
+}
+
+.btn-black{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 4px 15px;
+}
+
+
+main{
+    background-color: var(--backgroundMain);
+    height: 100vh;
+    width: 100vw;
+    padding: 10rem 4rem;
+    background-image: url(img/hero.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prueba{
+    margin-top: 120px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+button{
+    background-color: var(--lightPrimary);
+    border: solid 0;
+    border-radius: 20px;
+    padding: 0.4rem 2rem;
+    color:var(--backgroundMain);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 2.5rem 0 2rem 0;
+}
+
+footer{
+    padding: 9rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.stepItems{
+    display: flex;
+    margin: 3rem 0;
+    gap: 4rem;
+}
+
+.stepItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.numberCircle {
+    margin: 1rem 0;
+    box-sizing: content-box;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    border: 2px solid var(--lightPrimary);
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+
+p{
+    color: var(--fontColor);
+    font-size: 0.9rem;
+}
+
+h4{
+    margin: 1.5rem 0;
+}
+
+a:link{
+    color: var(--lightPrimary);
+}

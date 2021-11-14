@@ -1,0 +1,34 @@
+@import url('./colorsFontsSizes.css');
+
+.earnStars{
+    background-color: var(--gridBg);
+    padding: 3rem 2rem;
+}
+
+.earnStars>h2, .earnStars>p{
+    text-align: center;
+}
+
+.firstColGrid>*>i{
+    font-size: 60%;
+}
+
+.earnStarsGrid{
+    margin: 4rem 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr;
+    grid-template-rows: 200px 200px 200px;
+}
+
+.secondColGrid, .thirdColGrid {
+    display: flex;
+}
+
+.earnStars>*>*>*>img{
+    height: 80%;
+    margin: 1rem;
+}
+
+.earnStars>*>*>*>p{
+    font-size: 0.8rem;
+}

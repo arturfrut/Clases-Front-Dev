@@ -1,0 +1,32 @@
+@import url(../base/colorsFontsSizes.css);
+
+.gettingStarted{
+    padding: 4rem 6rem;
+    text-align: center;
+}
+
+.getStartFlex{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 2rem;
+}
+
+.stepItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numberCircle {
+    margin: 2rem 0;
+    box-sizing: content-box;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    padding: 8px;
+    border: 2px solid var(--secondaryLigth);
+    text-align: center;
+    font: 32px Arial, sans-serif;
+    color: var(--secondaryLigth);
+}
