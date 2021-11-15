@@ -25,10 +25,8 @@ Deben sumarse dos números naturales(numeros enteros). La tarea de suma es una c
 const sumaString = (cuenta) =>{
      let sumaElementos = null;
      let myArrayDeSuma = cuenta.split('+')
-     
-     if (myArrayDeSuma != -1) {
-          sumaElementos = 1*myArrayDeSuma[0] + 1*myArrayDeSuma[1];
-     }
+
+     sumaElementos = 1*myArrayDeSuma[0] + 1*myArrayDeSuma[1];
 
      return sumaElementos;
 }
@@ -42,7 +40,7 @@ hasta que acierte y muestre "Adivinaste el numero"*/
 const adivinaPrompt = () =>{
      let randomNumber = parseInt(Math.random()*(11 - 0));
      do {
-          myNumber = parseInt(prompt('Introduce un numero del 1 al 10','Escriba aqui'));
+          myNumber = prompt('Introduce un numero del 1 al 10','Escriba aqui');
      } while (randomNumber != myNumber);
      return alert(`Adivinaste! ${randomNumber} era el numero!`)
 }

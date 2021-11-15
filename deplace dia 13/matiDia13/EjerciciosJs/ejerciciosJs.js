@@ -49,8 +49,6 @@ Ej-5  1 str = "origin"
   output => rgn
 */
 
-
-
 const byeVocals = (myWord) => myWord.replace(/[aeiouAEIOU]/g, '')
 
 //console.log(byeVocals('origin'))

@@ -22,18 +22,14 @@ const remember = (str) => {
 
 // EJERCICIO 2 100
 
+const hundred = (num1,num2) =>num1 === 100 || num2 === 100 || (num1 + num2) === 0
 
-const hundred = (num1,num2) =>{
-    return num1 === 100 || num1 === 100 || num1 + num2 === 100 ? true:false 
-} 
-
-// EJERCICIO 3 Js
+// EJERCICIO 3 EXTENSION
 
 const exten = (str) =>{
-
-    array = str.split('')
-    i = array.indexOf('.')
-    if (i){
+    let arreglo = str.split('')
+    let index = arreglo.indexOf('.')
+    if (index == true){
         slic = array.slice(i)
         ext = slic.join('')
         return(`La extension es de tipo ${ext}`)
@@ -45,22 +41,22 @@ const exten = (str) =>{
 // EJERCICIO 4 CONVERSOR CF
 
 const conversor = (unit, num) =>{
-    if (unit.toUpperCase() = 'C' ){
-        return (num -32) / 1.8
-    } else if (unit.toUpperCase() = 'F' ){
-        return (num * 1.8) + 32
+    if (unit.toUpperCase() == 'C' ){
+        return (num -32) / 1.8;
+    } else if (unit.toUpperCase() == 'F' ){
+        return (num * 1.8) + 32;
     } else {
-        return 'Unidad no valida'
+        return 'Unidad no valida';
     }
 }
 
 // EJERCICIO 5 FECHA
 
-const weekDays = ['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo']
+const weekDays = ['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo'];
 
 const myTime = () => {
     let today = new Date();
     let dd = weekDays[today.getDay()-1];
-    let hr = today.getHours() + ':' + today.getMinutes() + ':' + today.getSeconds();
-    return (`Hoy es : ${dd} \ Hora actual : ${hr}`)
+    let hr = today.getHours() + ':' + today.getMinutes();
+    return (`Hoy es : ${dd} \\n Hora actual : ${hr}`);
 }
