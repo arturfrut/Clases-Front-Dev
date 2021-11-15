@@ -34,7 +34,7 @@ let outPut = '';
 }
 }
 
-//console.log(forUntilTen(5))
+//console.log(forUntilTen(4))
 
 /*
 3-
@@ -45,12 +45,12 @@ let outPut = '';
   */
 
 
-const arr = [10, "20", 30, "40", 50];
-
+//const arr = [10, "20", 30, "40", 50];
+/*
 const arrayIsNumber = (myArray) =>{
     let newArray = []
 
-    arr.forEach(element => {
+    myArray.forEach(element => {
         if (isNaN(element)){
             newArray.push(element)
         } else {
@@ -61,20 +61,21 @@ const arrayIsNumber = (myArray) =>{
     return newArray
 }
 
-//console.log(arrayIsNumber(arr))
-
+console.log(arrayIsNumber(arr))
+*/
+let arr = [2, 4, 7, 1, 2, "foo", 7, "bar", "qux", 3, "foo"]
 /*
- arr = [2, 4, 7, 1, 2, "foo", 7, "bar", "qux", 3, "foo"]
  eliminar los elementos repetidos, nota: (el segundo elemento repetido)
  output => [2, 4, 7, 1, "foo", "bar", "qux", 3]
 */
 
 const repeatArray = (myArray) =>{
     let arrayNoRepeat = myArray.filter((element,i)=>{
-        return myArray.indexOf(element) === i;
+        myArray.indexOf(element) === i;
       })
+      return arrayNoRepeat
 }
 
-//console.log(repeatArray(arr))
+console.log(repeatArray(arr))
 
 
