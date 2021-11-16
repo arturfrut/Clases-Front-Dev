@@ -100,3 +100,18 @@ btn2.addEventListener('click', ()=> {
     newContainer.style.backgroundColor = ''
 })
 
+////////////////////////////
+
+const form = document.createElement('form')
+container.appendChild(form)
+form.innerHTML = `
+<p>
+Ingrese su nombre:  <input type="text">
+</p>
+<p>
+Ingrese su apellido:  <input type="text">
+</p>
+<p>
+<button type="submit">Enviar</button>
+</p>
+`
