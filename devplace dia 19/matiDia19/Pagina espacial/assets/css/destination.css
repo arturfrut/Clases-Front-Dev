@@ -1,0 +1,73 @@
+.img__fondo01{
+    background-image: url(.././destination/background-destination-desktop.jpg)!important;
+    background-position: center center;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.93;
+}
+
+.rigth01__content{
+    height: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+ }
+ .rigth01__content>p{
+     color: rgb(133, 133, 133);
+ }
+ .rigth01{
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 90px 0;
+ }
+.left01{
+    background-image: url(../destination/image-mars.png); 
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 80%;
+}
+.slider01{
+    width: 60%;
+    height: 15%;
+    display: flex;
+    justify-content: start;
+    font-size: 15px;
+    gap: 40px;
+    
+}
+.btnSlider01{
+    text-decoration: none;
+    color: rgb(133, 133, 133);
+}
+#title01{
+    font-size: 60px;
+}
+.data{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 40px;
+    border-top: 1px solid rgb(133, 133, 133);
+    padding: 40px 0 0 0;
+}
+.distance>p,.travel>p{
+   font-size: 20px; 
+}
+.distance>h6,.travel>h6{
+    font-size: 10px; 
+    margin: 0 0 10px 0;
+ }
+

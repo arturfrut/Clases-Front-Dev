@@ -1,0 +1,75 @@
+/*Title font (space)*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Cinzel&family=Heebo:wght@100&display=swap');
+
+/*Header font*/
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Cinzel:wght@500&family=Heebo:wght@100&display=swap');
+
+/*Paragraph font */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Heebo:wght@100&display=swap');
+
+:root{
+    --title: 'Cinzel', serif;
+    --header: 'Barlow', sans-serif;
+    --paragraph: 'Heebo', sans-serif;
+
+}
+/*RESET*/
+
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: var(--title);
+}
+
+h2{
+    font-family: var(--header);
+}
+
+p{
+    font-family: var(--paragraph);
+}
+
+
+.main__container{
+    position: relative;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section{
+    display: flex;
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+  }
+
+  .titleNav{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+
+.spanTitle,.navTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
