@@ -101,12 +101,14 @@ btn2.addEventListener('click', ()=> {
 })
 
 ////////////////////////////
+const nombre = 'Artu'
+
 
 const form = document.createElement('form')
 container.appendChild(form)
 form.innerHTML = `
 <p>
-Ingrese su nombre:  <input type="text">
+Ingrese su nombre:  <input type="text" placeholder="${nombre}">
 </p>
 <p>
 Ingrese su apellido:  <input type="text">
